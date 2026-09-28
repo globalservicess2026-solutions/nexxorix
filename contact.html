@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact Us | Nexxorix Digital Solutions</title>
+<meta name="description" content="Contact Nexxorix Digital Solutions by phone, WhatsApp, email, or contact form to discuss SEO, ads, websites, chatbots, AI calling agents or CRM integration.">
+<link rel="canonical" href="https://www.nexxorixsolutions.com/contact.html">
+<meta property="og:title" content="Contact Us | Nexxorix Digital Solutions">
+<meta property="og:description" content="Contact Nexxorix Digital Solutions by phone, WhatsApp, email, or contact form to discuss SEO, ads, websites, chatbots, AI calling agents or CRM integration.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.nexxorixsolutions.com/contact.html">
+<meta property="og:site_name" content="Nexxorix Digital Solutions">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bg:#0B0F1A; --bg-alt:#10162A; --surface:#141B2E; --line:#232B42;
+  --text:#E7EAF3; --text-soft:#9BA3B8; --violet:#7C6CFF; --violet-soft:#9C8CFF; --cyan:#34D8C9;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth; scroll-padding-top:78px;}
+body{
+  margin:0; background:var(--bg); color:var(--text);
+  font-family:'Inter',system-ui,-apple-system,sans-serif; line-height:1.6;
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+h1,h2,h3{font-family:'Space Grotesk',system-ui,sans-serif; margin:0; font-weight:600; color:#fff;}
+a{color:inherit;}
+.wrap{max-width:1100px; margin:0 auto; padding:0 28px;}
+img{max-width:100%;}
+
+/* NAV */
+header{position:sticky; top:0; top:env(safe-area-inset-top,0px); background:rgba(11,15,26,.88); backdrop-filter:blur(8px); border-bottom:1px solid var(--line); z-index:20;}
+nav{display:flex; align-items:center; justify-content:space-between; padding:16px 0;}
+.logo{font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:19px; color:#fff; text-decoration:none;}
+.logo b{background:linear-gradient(90deg,var(--violet),var(--cyan)); -webkit-background-clip:text; background-clip:text; color:transparent;}
+.navlinks{display:flex; gap:30px; font-size:14.5px; font-weight:500;}
+.navlinks a{text-decoration:none; color:var(--text-soft); transition:color .2s;}
+.navlinks a:hover{color:#fff;}
+.navtoggle{display:none; background:none; border:none; color:#fff; font-size:22px; cursor:pointer;}
+.btn{display:inline-block; padding:12px 22px; border-radius:8px; font-weight:600; font-size:14.5px; text-decoration:none; border:1px solid transparent; cursor:pointer;}
+.btn-primary{background:linear-gradient(90deg,var(--violet),#6656e0); color:#fff;}
+.btn-primary:hover{filter:brightness(1.08);}
+.btn-outline{border-color:var(--line); color:#fff; background:transparent;}
+.btn-outline:hover{border-color:var(--violet-soft);}
+
+/* HERO */
+.hero{padding:88px 0 64px; border-bottom:1px solid var(--line); position:relative; overflow:hidden;}
+.hero:before{content:"";position:absolute; top:-120px; right:-100px; width:420px; height:420px; border-radius:50%;
+  background:radial-gradient(circle,rgba(124,108,255,.25),transparent 70%); filter:blur(10px); pointer-events:none;}
+.kicker{font-size:14px; color:var(--cyan); font-weight:600; margin-bottom:16px;}
+.hero h1{font-size:48px; line-height:1.12; max-width:17ch; position:relative;}
+.hero p.lead{font-size:17.5px; color:var(--text-soft); max-width:52ch; margin-top:20px;}
+.hero-actions{display:flex; gap:14px; margin-top:32px; flex-wrap:wrap;}
+.stat-row{display:flex; gap:40px; margin-top:44px; flex-wrap:wrap;}
+.stat b{display:block; font-family:'Space Grotesk',sans-serif; font-size:28px; color:#fff;}
+.stat span{font-size:13px; color:var(--text-soft);}
+
+/* SECTIONS */
+.section{padding:76px 0; border-bottom:1px solid var(--line);}
+.section-head{display:flex; justify-content:space-between; align-items:flex-end; gap:24px; margin-bottom:40px; flex-wrap:wrap;}
+.section-head h2{font-size:32px; max-width:16ch;}
+.section-head p{color:var(--text-soft); max-width:40ch; font-size:15.5px;}
+
+.service-row{display:grid; grid-template-columns:34px 1fr 1.5fr; gap:26px; align-items:start; padding:24px 0; border-top:1px solid var(--line);}
+.service-row:last-child{border-bottom:1px solid var(--line);}
+.service-row svg{width:24px; height:24px; stroke:var(--cyan); fill:none; stroke-width:1.6; margin-top:3px;}
+.service-row h3{font-size:19px;}
+.service-row p{color:var(--text-soft); font-size:15px; margin:0;}
+
+.band{background:var(--bg-alt); padding:52px 0; border-bottom:1px solid var(--line);}
+.band .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:30px;}
+
+.process-item{display:grid; grid-template-columns:56px 1fr; gap:22px; padding:22px 0; border-top:1px solid var(--line);}
+.process-item:last-child{border-bottom:1px solid var(--line);}
+.process-num{font-family:'Space Grotesk',sans-serif; font-size:20px; color:var(--cyan); font-weight:600;}
+.process-item h3{font-size:18px; margin-bottom:6px;}
+.process-item p{color:var(--text-soft); font-size:15px; margin:0; max-width:60ch;}
+
+.faq-item{padding:20px 0; border-top:1px solid var(--line);}
+.faq-item:last-child{border-bottom:1px solid var(--line);}
+.faq-item h3{font-size:17px; margin-bottom:8px;}
+.faq-item p{color:var(--text-soft); font-size:15px; margin:0;}
+
+.quote-grid{display:grid; grid-template-columns:1fr 1fr; gap:36px;}
+blockquote{margin:0; border-left:2px solid var(--violet); padding-left:20px;}
+blockquote p{font-family:'Space Grotesk',sans-serif; font-size:18px; color:#fff; line-height:1.5; margin:0 0 12px;}
+blockquote cite{font-style:normal; font-size:13.5px; color:var(--text-soft);}
+
+.cta-inner{display:grid; grid-template-columns:1fr auto; align-items:center; gap:24px; background:var(--surface); border:1px solid var(--line); padding:48px; border-radius:14px;}
+.cta-inner h2{font-size:28px; max-width:18ch;}
+.cta-inner p{color:var(--text-soft); margin-top:8px; font-size:15px;}
+
+.contact-grid{display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:start;}
+.contact-info p{color:var(--text-soft); font-size:15.5px;}
+.contact-info a.channel{display:flex; align-items:center; gap:10px; text-decoration:none; color:#fff; margin-top:14px; font-size:15px;}
+form.contact-form{display:flex; flex-direction:column; gap:14px;}
+form.contact-form input, form.contact-form textarea{
+  background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:13px 14px; color:#fff; font-family:inherit; font-size:14.5px;
+}
+form.contact-form textarea{min-height:110px; resize:vertical;}
+form.contact-form label{font-size:13.5px; color:var(--text-soft);}
+
+footer{padding:40px 0; border-top:1px solid var(--line);}
+.foot-grid{display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:24px; font-size:13.5px; color:var(--text-soft);}
+.foot-links{display:flex; gap:20px; flex-wrap:wrap;}
+.foot-links a{text-decoration:none; color:var(--text-soft);}
+.foot-links a:hover{color:#fff;}
+.foot-legal{display:flex; gap:18px; flex-wrap:wrap; margin-top:10px;}
+
+/* Legal pages */
+.legal{padding:70px 0 90px;}
+.legal h1{font-size:34px; margin-bottom:8px;}
+.legal .updated{color:var(--text-soft); font-size:14px; margin-bottom:36px;}
+.legal h2{font-size:20px; margin-top:34px; margin-bottom:10px; color:#fff;}
+.legal p, .legal li{color:var(--text-soft); font-size:15.5px;}
+.legal ul{padding-left:20px;}
+
+/* Floating widgets */
+.float-stack{position:fixed; right:20px; bottom:20px; bottom:calc(20px + env(safe-area-inset-bottom,0px)); display:flex; flex-direction:column; gap:14px; align-items:flex-end; z-index:40;}
+.fab{width:56px; height:56px; border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; border:none; box-shadow:0 8px 24px rgba(0,0,0,.35);}
+.fab-whatsapp{background:#25D366; text-decoration:none;}
+.fab-chat{background:linear-gradient(135deg,var(--violet),var(--cyan));}
+.fab svg{width:26px; height:26px; stroke:#fff; fill:none; stroke-width:1.8;}
+
+.chat-panel{width:320px; max-width:calc(100vw - 40px); max-height:440px; background:var(--surface); border:1px solid var(--line); border-radius:14px; display:none; flex-direction:column; overflow:hidden; box-shadow:0 20px 50px rgba(0,0,0,.5);}
+.chat-panel.open{display:flex;}
+.chat-head{padding:14px 16px; border-bottom:1px solid var(--line); display:flex; justify-content:space-between; align-items:center;}
+.chat-head b{font-size:14.5px;}
+.chat-head span{font-size:12px; color:var(--cyan);}
+.chat-close{background:none; border:none; color:var(--text-soft); cursor:pointer; font-size:16px;}
+.chat-body{flex:1; overflow-y:auto; padding:14px 16px; display:flex; flex-direction:column; gap:10px; font-size:14px;}
+.msg{max-width:85%; padding:9px 12px; border-radius:10px; line-height:1.45;}
+.msg.bot{background:var(--bg-alt); align-self:flex-start; color:#E7EAF3;}
+.msg.user{background:var(--violet); align-self:flex-end; color:#fff;}
+.chat-quick{display:flex; flex-wrap:wrap; gap:6px; padding:0 16px 10px;}
+.chat-quick button{background:var(--bg-alt); border:1px solid var(--line); color:var(--text-soft); border-radius:20px; padding:6px 10px; font-size:12.5px; cursor:pointer;}
+.chat-quick button:hover{border-color:var(--violet-soft); color:#fff;}
+.chat-input{display:flex; border-top:1px solid var(--line);}
+.chat-input input{flex:1; background:transparent; border:none; padding:12px 14px; color:#fff; font-size:14px;}
+.chat-input input:focus{outline:none;}
+.chat-input button{background:none; border:none; color:var(--cyan); padding:0 14px; cursor:pointer; font-weight:600;}
+
+@media (max-width:800px){
+  .navlinks{display:none;}
+  .navtoggle{display:block;}
+  .hero h1{font-size:34px;}
+  .service-row{grid-template-columns:26px 1fr;}
+  .service-row p{grid-column:2/3;}
+  .quote-grid{grid-template-columns:1fr;}
+  .cta-inner{grid-template-columns:1fr;}
+  .contact-grid{grid-template-columns:1fr;}
+}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto;} }
+
+/* Services detail blocks */
+.svc{padding:44px 0; border-top:1px solid var(--line); display:grid; grid-template-columns:1fr 1.5fr; gap:40px;}
+.svc:last-child{border-bottom:1px solid var(--line);}
+.svc h2{font-size:26px;}
+.svc p{color:var(--text-soft); font-size:15.5px; margin:0 0 14px;}
+.svc ul{margin:0 0 16px; padding-left:20px; color:var(--text-soft); font-size:15px;}
+.svc li{margin-bottom:4px;}
+.svc a.more, a.textlink{color:var(--cyan); text-decoration:none; font-weight:600; font-size:14.5px;}
+.svc-link{display:grid; grid-template-columns:1fr 1.6fr auto; gap:26px; align-items:baseline; padding:20px 0; border-top:1px solid var(--line);}
+.svc-link:last-child{border-bottom:1px solid var(--line);}
+.svc-link h3{font-size:18px;}
+.svc-link p{color:var(--text-soft); font-size:15px; margin:0;}
+.svc-link a{color:var(--cyan); text-decoration:none; font-size:14.5px; font-weight:600;}
+form.contact-form select{background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:13px 14px; color:#fff; font-family:inherit; font-size:14.5px; width:100%;}
+.form-status{color:var(--cyan); font-size:14px; margin:0; min-height:1.2em;}
+.chat-form{display:flex; flex-direction:column; gap:8px; background:var(--bg-alt); padding:10px; border-radius:10px; align-self:stretch;}
+.chat-form input,.chat-form textarea{background:var(--surface); border:1px solid var(--line); border-radius:6px; padding:9px 10px; color:#fff; font-family:inherit; font-size:13.5px;}
+.chat-form textarea{min-height:64px; resize:vertical;}
+.chat-form .err{color:#ff9a9a; font-size:12.5px; min-height:1em;}
+.chat-form button{background:linear-gradient(90deg,var(--violet),#6656e0); color:#fff; border:none; border-radius:6px; padding:9px; font-weight:600; cursor:pointer;}
+@media (max-width:800px){ .svc{grid-template-columns:1fr; gap:14px;} .svc-link{grid-template-columns:1fr; gap:6px;} }
+
+</style>
+
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a href="index.html" class="logo">Nex<b>xorix</b></a>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" style="color:#fff;">Contact</a>
+    </div>
+    <button class="navtoggle" aria-label="Menu">☰</button>
+    <a href="signup.html" class="btn btn-primary">Get Started</a>
+  </nav>
+</header>
+
+<section class="section" style="border-bottom:none; padding-top:64px;">
+  <div class="wrap contact-grid">
+    <div>
+      <h1 style="font-size:34px; margin-bottom:14px;">Contact us</h1>
+      <p style="color:var(--text-soft); font-size:15.5px; max-width:46ch;">Tell us about your project or ask a question. Call, message us on WhatsApp, email, or send the form and our team will get back to you.</p>
+      <div class="contact-info">
+        <a class="channel" href="tel:+18102789121">📞 +1 810 278 9121</a>
+        <a class="channel" href="https://wa.me/18102789121" target="_blank" rel="noopener">💬 Chat with us on WhatsApp</a>
+        <a class="channel" href="mailto:support@nexxorixsolutions.com">✉️ support@nexxorixsolutions.com</a>
+      </div>
+      <p style="margin-top:28px; font-size:14.5px; color:var(--text-soft);">Ready to start a project? The <a href="signup.html" class="textlink">Get Started page</a> collects a little more detail so we can respond properly.</p>
+    </div>
+    <form class="contact-form" data-lead="contact">
+      <div><label for="c-name">Name</label><input id="c-name" name="name" required></div>
+      <div><label for="c-email">Email</label><input id="c-email" type="email" name="email" required></div>
+      <div><label for="c-msg">Your query</label><textarea id="c-msg" name="query" required></textarea></div>
+      <button type="submit" class="btn btn-primary">Send message</button>
+      <p class="form-status" role="status"></p>
+    </form>
+  </div>
+</section>
+
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="logo" style="margin-bottom:8px;">Nex<b>xorix</b></div>
+        <div>© 2026 Nexxorix Digital Solutions LLP</div>
+        <div style="margin-top:6px;"><a href="tel:+18102789121" style="text-decoration:none;">+1 810 278 9121</a></div>
+      </div>
+      <div>
+        <div class="foot-links">
+          <a href="services.html">Services</a>
+          <a href="faq.html">FAQ</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="mailto:support@nexxorixsolutions.com">support@nexxorixsolutions.com</a>
+          <a href="https://wa.me/18102789121" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <div class="foot-legal">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-use.html">Terms of Use</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+          <a href="disclaimer.html">Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<div class="float-stack">
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-head">
+      <div><b>Nexxorix AI Assistant</b><br><span>Ask about our services</span></div>
+      <button class="chat-close" onclick="toggleChat()" aria-label="Close chat">✕</button>
+    </div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-quick" id="chatQuick"></div>
+    <div class="chat-input">
+      <input id="chatInput" type="text" placeholder="Type your question..." aria-label="Type your question">
+      <button onclick="sendChat()">Send</button>
+    </div>
+  </div>
+  <a class="fab fab-whatsapp" href="https://wa.me/18102789121" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-8.5 8.5 8.5 8.5 0 0 1-4-1L3 20l1-5.5A8.5 8.5 0 1 1 21 11.5z"/></svg>
+  </a>
+  <button class="fab fab-chat" onclick="toggleChat()" aria-label="Open chat assistant">
+    <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+  </button>
+</div>
+
+
+<script>
+// ---------- Config ----------
+const SUPPORT_EMAIL = "nexxorix50@gmail.com";   // where enquiries should end up
+const WHATSAPP_NUMBER = "18102789121";          // no + or spaces
+// Paste your Formspree endpoint here (see README) so forms and the chatbot
+// deliver straight to your inbox. While empty, they fall back to mailto:.
+const FORM_ENDPOINT = "";
+
+// ---------- Sending leads ----------
+async function sendLead(fields, subject) {
+  const message = Object.entries(fields).map(([k, v]) => k + ": " + v).join("\n");
+  if (FORM_ENDPOINT) {
+    try {
+      const res = await fetch(FORM_ENDPOINT, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", "Accept": "application/json" },
+        body: JSON.stringify(Object.assign({ _subject: subject }, fields)),
+      });
+      return res.ok ? "sent" : "failed";
+    } catch (e) { return "failed"; }
+  }
+  window.location.href = "mailto:" + SUPPORT_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(message);
+  return "mailto";
+}
+
+const THANKS = "Thank you. Your request has been sent to the Nexxorix team. We have your email and query, and our team will review it and get back to you.";
+const MAILTO_NOTE = "Your email app should now open with your message ready. Please press send to complete your request.";
+const FAIL_NOTE = "Sorry, that didn't go through. Please email support@nexxorixsolutions.com or message us on WhatsApp at +1 810 278 9121.";
+
+// ---------- Page forms (contact + get started) ----------
+document.addEventListener("DOMContentLoaded", () => {
+  const toggle = document.querySelector(".navtoggle");
+  const links = document.querySelector(".navlinks");
+  if (toggle && links) {
+    toggle.addEventListener("click", () => {
+      links.classList.toggle("open");
+      links.style.display = links.classList.contains("open") ? "flex" : "";
+    });
+  }
+
+  document.querySelectorAll("form[data-lead]").forEach((form) => {
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const status = form.querySelector(".form-status");
+      const fields = Object.fromEntries(new FormData(form).entries());
+      fields.page = location.pathname;
+      status.textContent = "Sending...";
+      const subject = form.dataset.lead === "signup"
+        ? "New Get Started request - " + (fields.business || "")
+        : "New website enquiry from " + (fields.name || "");
+      const r = await sendLead(fields, subject);
+      status.textContent = r === "sent" ? THANKS : r === "mailto" ? MAILTO_NOTE : FAIL_NOTE;
+      if (r === "sent") form.reset();
+    });
+  });
+
+  const input = document.getElementById("chatInput");
+  if (input) input.addEventListener("keydown", (e) => { if (e.key === "Enter") sendChat(); });
+  if (document.getElementById("chatBody")) startChat();
+});
+
+// ---------- Chatbot ----------
+// Scripted assistant that follows the Nexxorix support brief: understand the
+// visitor's goal, recommend a service, never invent prices/results, and hand
+// off to a person via the Live Agent form. (A live generative model would need
+// a server to keep an API key private - this static site has none.)
+const SERVICES = [
+  { id: "ecom", keys: ["ecommerce", "e-commerce", "online store", "online shop", "sell online", "sell products", "shopify", "shopping cart", "checkout"],
+    a: "We build e-commerce websites with product and catalog setup, shopping cart and checkout, payment gateway integration, and mobile-friendly design. What kind of products would you be selling?" },
+  { id: "meta", keys: ["meta", "facebook", "instagram", "fb ads", "retargeting"],
+    a: "Our Meta Ads service covers Facebook and Instagram advertising: lead generation campaigns, audience targeting, retargeting, and campaign setup and optimization. Is your main goal more leads or more online sales?" },
+  { id: "gads", keys: ["google ads", "adwords", "ppc", "paid traffic", "paid ads", "display ads", "search ads", "paid advertising"],
+    a: "For Google Ads we set up Search and Display campaigns with keyword targeting, conversion-focused structure, and ongoing monitoring and optimization. Are you after quick paid traffic, or would you like to build longer-term search visibility with SEO as well?" },
+  { id: "seo", keys: ["seo", "search engine", "rank", "keyword", "organic", "visibility", "google search", "audit"],
+    a: "Our SEO services include on-page and technical SEO, website audits, keyword research, content optimization, and local SEO, all aimed at improving your search visibility. Do you already have a website?" },
+  { id: "chatbot", keys: ["chatbot", "chat bot", "bot", "chat automation", "automation"],
+    a: "Chatbot automation puts an assistant on your website, like this one, to answer common questions, capture inquiries, and pass visitors to your team when a person is needed. What would you want it to handle for your business?" },
+  { id: "calling", keys: ["ai calling", "calling agent", "voice agent", "voice ai", "ai call", "phone agent", "answer calls"],
+    a: "An AI calling agent can handle phone calls, ask a few basic questions, and pass the details to your team. The exact setup depends on your business. Is this for incoming calls, outgoing calls, or both?" },
+  { id: "crm", keys: ["crm", "hubspot", "zoho", "salesforce", "pipeline"],
+    a: "CRM integration connects your website forms, chatbot, and ad leads to your CRM so inquiries land in one place. Do you already use a CRM?" },
+  { id: "leadgen", keys: ["lead", "inquiries", "enquiries", "customers", "clients"],
+    a: "Lead generation websites are built for one job: bringing in qualified inquiries, with lead-focused landing pages, capture forms, and clear calls to action. What type of business is it for?" },
+  { id: "web", keys: ["website", "web site", "wordpress", "landing page", "redesign", "web development", "web design", "corporate"],
+    a: "For website development we build business and corporate websites, WordPress sites, landing pages, and redesigns, all mobile-friendly. Do you need a new website or improvements to an existing one?" },
+];
+
+const RX = {
+  human: /\b(are you|r u)\s+(a\s+)?(human|real|person|bot|ai)\b/i,
+  handoff: /(talk|speak|chat)\s+(to|with)\s+(someone|a person|a human|an agent|your team|the team|sales|a real|somebody)|real person|live agent|human support|connect me|contact me|call me|reach me|get a quote|\bquote\b|discuss (my|the|our) project|sales team|someone (contact|call)|need support/i,
+  price: /\b(price|pricing|prices|cost|costs|how much|charges|rates|fee|fees|budget|package|packages)\b/i,
+  guarantee: /guarantee|first page|#1|top rank|number one/i,
+  time: /how long|timeline|turnaround|how soon|delivery time|how fast/i,
+  unsafe: /password|credit card|card number|cvv|\botp\b|bank account/i,
+  greet: /^(hi|hello|hey|hii|good (morning|afternoon|evening))\b/i,
+  thanks: /^(thanks|thank you|thx)\b/i,
+};
+
+function el(id) { return document.getElementById(id); }
+function toggleChat() { el("chatPanel").classList.toggle("open"); }
+
+function addMsg(text, who) {
+  const d = document.createElement("div");
+  d.className = "msg " + who;
+  d.textContent = text;
+  el("chatBody").appendChild(d);
+  el("chatBody").scrollTop = el("chatBody").scrollHeight;
+}
+
+function setChips(labels) {
+  const q = el("chatQuick");
+  q.innerHTML = "";
+  labels.forEach((l) => {
+    const b = document.createElement("button");
+    b.textContent = l;
+    b.onclick = () => handleUser(l);
+    q.appendChild(b);
+  });
+}
+
+function startChat() {
+  addMsg("Hi! I'm the Nexxorix AI assistant. What brings you here today?", "bot");
+  setChips(["SEO", "Google Ads", "Meta Ads", "Website", "Online store", "Talk to the team"]);
+}
+
+function bot(text, chips) {
+  setTimeout(() => { addMsg(text, "bot"); setChips(chips || []); }, 250);
+}
+
+function sendChat() {
+  const input = el("chatInput");
+  const t = input.value.trim();
+  if (!t) return;
+  input.value = "";
+  handleUser(t);
+}
+
+function handleUser(text) {
+  addMsg(text, "user");
+  const t = text.trim();
+  const TALK = ["Talk to the team"];
+
+  if (RX.unsafe.test(t)) return bot("Please don't share passwords, card details, OTPs, or bank information in this chat. I don't need any of that to help you.", TALK);
+  if (RX.human.test(t)) return bot("I'm an AI assistant for Nexxorix, not a person. I can answer questions about our services, or connect you with the team whenever you like.", TALK);
+  if (RX.handoff.test(t) || /^talk to the team$/i.test(t)) { const pre = /^talk to the team$/i.test(t) ? (window.__lastUnknown || "") : (t.length > 45 ? t : ""); window.__lastUnknown = ""; return showHandoff(pre); }
+  if (RX.guarantee.test(t)) return bot("We can't guarantee specific rankings, leads, or sales, and nobody can honestly promise that. What we can do is work on the things that improve your chances and be clear about what we're doing. What's your main goal right now?", TALK);
+  if (RX.price.test(t)) return bot("Pricing depends on your requirements, so I don't want to guess a number. I can connect you with a Nexxorix representative who can talk through your project and give you a quote.", TALK);
+  if (RX.time.test(t)) return bot("Timelines depend on the scope of the project, so I can't give a fixed number. The team can estimate once they know what you need.", TALK);
+  if (RX.thanks.test(t)) return bot("You're welcome! Anything else I can help with?", TALK);
+
+  const lower = t.toLowerCase();
+  for (const s of SERVICES) {
+    const hit = s.keys.some((k) => new RegExp("\\b" + k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i").test(lower));
+    if (hit) return bot(s.a, TALK);
+  }
+  if (RX.greet.test(t)) return bot("Hello! Are you looking for SEO, paid ads, a website, or something else?", ["SEO", "Google Ads", "Meta Ads", "Website", "Online store"]);
+
+  bot("I'm not sure I have a reliable answer to that one. I can pass your question to the Nexxorix team, and they'll get back to you by email.", TALK);
+  window.__lastUnknown = t;
+}
+
+// ---------- Live Agent form ----------
+function showHandoff(prefill) {
+  setChips([]);
+  setTimeout(() => {
+    addMsg("Absolutely. I can connect you with the Nexxorix team. Please enter your email address and briefly tell us what you'd like help with. Our team will review your request and get back to you.", "bot");
+    const form = document.createElement("div");
+    form.className = "chat-form";
+    form.innerHTML =
+      '<label style="font-size:12.5px;color:#9BA3B8">Email Address</label>' +
+      '<input type="email" id="lfEmail" placeholder="you@company.com" autocomplete="email">' +
+      '<label style="font-size:12.5px;color:#9BA3B8">Your Query</label>' +
+      '<textarea id="lfQuery" placeholder="What would you like help with?"></textarea>' +
+      '<div class="err" id="lfErr"></div>' +
+      '<button type="button" id="lfSend">Send request</button>';
+    el("chatBody").appendChild(form);
+    el("chatBody").scrollTop = el("chatBody").scrollHeight;
+    el("lfQuery").value = prefill || "";
+    el("lfSend").onclick = submitHandoff;
+  }, 250);
+}
+
+async function submitHandoff() {
+  const email = el("lfEmail").value.trim();
+  const query = el("lfQuery").value.trim();
+  const err = el("lfErr");
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) { err.textContent = "Please enter a valid email address."; return; }
+  if (!query) { err.textContent = "Please briefly describe what you need."; return; }
+  err.textContent = "";
+  el("lfSend").disabled = true;
+  el("lfSend").textContent = "Sending...";
+  const r = await sendLead({ email: email, query: query, source: "Website chatbot", page: location.pathname }, "New chatbot request from " + email);
+  const form = document.querySelector(".chat-form");
+  if (form) form.remove();
+  if (r === "sent") addMsg(THANKS, "bot");
+  else if (r === "mailto") addMsg(MAILTO_NOTE, "bot");
+  else addMsg(FAIL_NOTE, "bot");
+}
+
+</script>
+</body>
+</html>
